@@ -1,5 +1,8 @@
 package hu.bme.tmit.klima.model;
 
+import java.sql.Connection;
+import java.sql.SQLException;
+
 
 public class Accident extends KlimaData {
 	long id;
@@ -18,5 +21,10 @@ public class Accident extends KlimaData {
 	
 	Date date;
 	Location location;
+	@Override
+	public boolean insert(Connection connection) throws SQLException {
+		// TODO Auto-generated method stub
+		return false;
+	}
 
 }
