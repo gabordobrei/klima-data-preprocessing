@@ -1,5 +1,9 @@
 package hu.bme.tmit.klima.model;
 
-public class Date extends KlimaData {
+import java.util.Map;
 
+public class Date extends KlimaData {
+	long id;
+	int year, month, day, hour;
+	
 }
